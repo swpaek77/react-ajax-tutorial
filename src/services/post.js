@@ -8,3 +8,7 @@ export function getComments(postId){
   //return axios.get('https://jsonplaceholder.typicode.com/posts/' + postId + '/comments')
   return axios.get(`https://jsonplaceholder.typicode.com/posts/${postId}/comments`)
 }
+
+export function getIP(){
+  return axios.get('https://www.sunssc.com/ip')
+}

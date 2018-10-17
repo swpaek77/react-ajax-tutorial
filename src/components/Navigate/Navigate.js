@@ -7,7 +7,7 @@ const Navigate = ({onClick, postId, disabled}) => {
     <div className="Navigate">
       <Button
         color="teal"
-        content="Previos"
+        content="Previous"
         icon="left arrow"
         labelPosition="left"
         onClick={

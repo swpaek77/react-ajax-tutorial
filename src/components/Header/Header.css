@@ -7,3 +7,8 @@
   font-weight: 600;
   margin-bottom: 2rem;
 }
+.header-button{
+  position: relative;
+  float: right;
+  top: -8.3px;
+}
